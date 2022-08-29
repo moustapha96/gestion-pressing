@@ -1,0 +1,50 @@
+<div class="header pb-8 pt-5 pt-md-8" id="cage">
+  <div class="container-fluid">
+    <div class="header-body">
+      <button class="btn " type="button" (click)="opendialogue()">ADD Customers</button>
+
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid mt--7">
+  <div class="row">
+    <div class="col">
+      <div class="card shadow border-0">
+        <div style="height: 600px;"> <br>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="search here" id="search"> <br>
+            <table class="table">
+              <thead class="table">
+                <tr>
+
+                  <th scope="col">#</th>
+                  <th scope="col">customer name</th>
+                  <th scope="col">contact</th>
+                  <th scope="col">adress</th>
+
+                </tr>
+              </thead>
+
+              <tbody>
+
+                <tr *ngFor="let client of clients">
+
+                  <th scope="row">{{client.id_cli}}</th>
+                  <td>{{client.name}}</td>
+                  <td>{{client.phone}} <br> {{client.email}}</td>
+                  <td>{{client.adresse}}</td>
+
+                </tr>
+
+
+
+              </tbody>
+
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,230 @@
+#carre {
+    background-color: #0083ff;
+    height: 300px;
+}
+
+img {
+    position: relative;
+    bottom: 10px;
+    height: 60px;
+    left: 20%;
+}
+
+strong {
+    position: relative;
+    left: 20%;
+}
+
+
+
+#container {
+    width: 700px;
+}
+
+#card {
+    border-color: black;
+    border-style: dashed;
+    position: relative;
+    left: 15px;
+    width: 135px;
+    height: 120px;
+}
+
+#card1 {
+    border-color: black;
+    border-style: dashed;
+    width: 135px;
+    height: 120px;
+    position: relative;
+    left: 200px;
+    bottom: 143px;
+}
+
+#card2 {
+    border-color: black;
+    border-style: dashed;
+    width: 135px;
+    height: 120px;
+    position: relative;
+    left: 180px;
+    bottom: 70px;
+}
+
+#card3 {
+    border-color: black;
+    border-style: dashed;
+    width: 135px;
+    height: 120px;
+    position: relative;
+    left: 370px;
+    bottom: 190px;
+}
+
+#card4 {
+    border-color: black;
+    border-style: dashed;
+    width: 135px;
+    height: 120px;
+    position: relative;
+    right: 185px;
+    bottom: 160px;
+}
+
+#card5 {
+    border-color: black;
+    border-style: dashed;
+    width: 135px;
+    height: 120px;
+    position: relative;
+    right: 0px;
+    bottom: 279px;
+}
+
+#card6 {
+    border-color: black;
+    border-style: dashed;
+    width: 135px;
+    height: 120px;
+    position: relative;
+    left: 180px;
+    bottom: 401px;
+}
+
+#card7 {
+    border-color: black;
+    border-style: dashed;
+    width: 135px;
+    height: 120px;
+    position: relative;
+    left: 370px;
+    bottom: 520px;
+}
+
+#cage {
+    width: 380px;
+    position: relative;
+    right: 60px;
+    bottom: 50px;
+
+}
+
+#cage1 {
+    position: absolute;
+    height: 500px;
+    width: 770px;
+}
+
+#cage2 {
+    width: 380px;
+    position: relative;
+    left: 740px;
+    bottom: 50px;
+
+}
+
+#cage3 {
+    position: absolute;
+    height: 500px;
+    width: 400px;
+}
+
+
+
+#pre {
+    border-color: blue;
+    // height: 20px;
+    width: 210px;
+    border-radius: 10px;
+    padding: 6px;
+    padding-right: 8px;
+}
+
+input:focus-visible {
+    border-color: blue;
+
+
+}
+
+
+#search {
+    width: 720px;
+}
+
+#id {
+    width: 150px;
+    border: #e8ebee;
+    background-color: #e8ebee;
+    border-radius: 7px;
+    padding: 7px;
+}
+
+button {
+    position: absolute;
+    left: 260px;
+    // bottom: 1px;
+    border-radius: 10px;
+    padding: 6px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-color: #0083ff;
+    background-color: #0083ff;
+    ;
+}
+
+#trait_dessus {
+    border-top: 1px solid #000;
+    width: 380px;
+    position: relative;
+    top: 350px;
+    right: 24px;
+}
+
+#clear {
+    background-color: red;
+    position: relative;
+    left: 245px;
+    top: 160px;
+    border-radius: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-color: rgb(239, 53, 53);
+    color: white;
+}
+
+#save {
+    background-color: #0083ff;
+    position: relative;
+    left: 60px;
+    top: 200px;
+    border-radius: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-color: #0083ff;
+    color: white;
+}
+
+#date {
+    position: absolute;
+    left: 210px;
+    top: 65px;
+    padding: 4px;
+}
+
+.mat-dialog-container {
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+    background: lightcyan;
+    color: #e8ebee;
+}
+
+table {
+    position: relative;
+    right: 25px;
+    width: 400px;
+}
+
+thead {
+    background-color: #e8ebee;
+    ;
+}

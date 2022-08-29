@@ -1,0 +1,43 @@
+#cage {
+    background-color: #0083ff;
+}
+
+thead {
+    background-color: #e8ebee;
+    ;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+
+}
+
+.edit {
+    border: 1px solid rgb(246, 246, 152);
+    background-color: rgb(246, 246, 152);
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+
+.edit:hover {
+    background-color: orange;
+}
+
+
+.delete {
+    border: 1px solid rgb(241, 95, 95);
+    background-color: rgb(241, 95, 95);
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+
+.delete:hover {
+    background-color: red;
+}
+
+.type {
+    color: blue
+}

@@ -1,0 +1,52 @@
+<div class="header pb-8 pt-5 pt-md-8" id="cage">
+  <div class="container-fluid">
+    <div class="header-body">
+
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid mt--7">
+  <div class="row">
+    <div class="col">
+      <div class="card shadow border-0">
+        <div style="height: 600px;"> <br>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="search here" id="search"> <br>
+            <table class="table">
+              <thead class="table">
+                <tr>
+
+                  <th scope="col">#</th>
+                  <th scope="col">Service name</th>
+                  <th scope="col">Service type</th>
+                  <th scope="col">actived</th>
+
+                </tr>
+              </thead>
+
+              <tbody>
+
+                <tr *ngFor="let service of services">
+
+                  <th scope="row"> <br> {{service.id_ser}}</th>
+                  <td> <img src="{{service.image}}"> &nbsp; <strong>{{service.designation}}</strong> </td>
+                  <td class="type"> <br> {{service.type_ser}}</td>
+
+                  <td [ngStyle]="{'color'  : service.statut === true ? 'green' : 'red'}"> <br>
+                    {{service.statut}} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a class="edit" href="">Edit</a>
+                    &nbsp; <a class="delete" href="">delete</a>
+                  </td>
+
+
+
+                </tr>
+              </tbody>
+
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

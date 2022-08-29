@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="bod">
+    <div class="form-card">
+
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgWsUbzUmJCOBG6O2sLdKYQ-AazD3EKusR4g&usqp=CAU"
+        alt="">
+      <h1>PRESSING</h1>
+
+      <form [formGroup]="form" (ngSubmit)="onSubmit(form.value)" fxFlex="90" fxFlex.gt-sm="40" fxFlex.sm="60"
+        class="mat-elevation-z6">
+
+        <div class="p-3">
+          <a mat-button color="accent" class="w-100">{{ error }}</a>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" class="form-control" formControlName="email" id="email" aria-describedby="helpId"
+              placeholder="Email">
+            <small id="helpId" class="form-text text-muted">Help text</small>
+          </div>
+
+          <div class="form-group">
+            <label for="Password">Password</label>
+            <input type="password" class="form-control" formControlName="password" id="Password"
+              aria-describedby="helpId" placeholder="Password">
+            <small id="helpId" class="form-text text-muted">Help text</small>
+          </div>
+
+          <button class="btn btn-primary" type="submit" color="primary" class="mat-elevation-z6 w-100 mt-3"
+            type="submit">SE CONNECTER</button>
+          <button class="btn btn-secondary" [routerLink]="['/register']" routerLinkActive="router-link-active"
+            class="mat-elevation-z6 w-100 mt-3">S'INSCRIRE</button>
+
+        </div>
+
+      </form>
+
+
+    </div>
+
+  </div>
+</body>
+
+</html>
